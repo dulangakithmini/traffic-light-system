@@ -19,15 +19,17 @@ class HomeBloc extends Bloc<BlockEventBase, HomeState> {
   }
 }
 
+/// states
 class HomeState {
   final bool isRedOn;
   final bool isYellowOn;
   final bool isGreenOn;
 
-  HomeState(
-      {@required this.isRedOn,
-      @required this.isGreenOn,
-      @required this.isYellowOn});
+  HomeState({
+    @required this.isRedOn,
+    @required this.isGreenOn,
+    @required this.isYellowOn,
+  });
 }
 
 abstract class BlockEventBase {}
