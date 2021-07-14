@@ -26,7 +26,7 @@ class HomeScreen extends StatelessWidget {
                         onPressed: () {
                           BlocProvider.of<HomeBloc>(ctx).add(StopEvent());
                         },
-                        child: Text('Stop'),
+                        child: Text('Stop, git check'),
                       ),
                     ),
                     SizedBox(
@@ -72,4 +72,6 @@ class HomeScreen extends StatelessWidget {
       ),
     );
   }
+
+  gitCheck() {}
 }
