@@ -72,4 +72,6 @@ class HomeScreen extends StatelessWidget {
       ),
     );
   }
+
+  gitCheckBranch() {}
 }
